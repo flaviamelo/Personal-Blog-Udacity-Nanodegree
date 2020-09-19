@@ -1,0 +1,19 @@
+@import url("nav.css");
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+footer{
+    color: white;
+}
