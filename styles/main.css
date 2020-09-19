@@ -1,19 +1,67 @@
 @import url("nav.css");
+@import url("footer.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
 html, body{
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: 'Raleway', sans-serif;
 }
-
+.container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 50px auto;
+    grid-gap: 100px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd"
+    "main main main main main main main main main"
+    "ft ft ft ft ft ft ft ft ft";
+}
+header{
+    grid-area: hd;
+}
+.main-box{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "photo title";
+}
+.photo-box{
+    height: auto;
+    grid-area: photo;
+}
+img{
+    width: auto;
+    height: 350px;
+    /*padding-left: 200px;*/
+    border-radius: 350px;
+   position: relative;
+   left: 25%;
+    
+}
+main{
+    grid-area: title;
+    margin: 0;
+    padding: 50px;
+}
 h1{
     color: white;
+    font-size: 46px;
+    font-weight: 400px;
+    font-style: italic;
 }
-
+h1 span{
+    color: #FF7E6B;
+}
 h2{
     color: white;
+    font-size: 18px;
+    font-weight: 100px;
+    margin-top: -25px;
 }
 
-footer{
-    color: white;
-}
