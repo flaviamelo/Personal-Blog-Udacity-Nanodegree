@@ -1,6 +1,5 @@
 @keyframes navanim {
     0% {opacity: 0;}
-	50%{opacity: 0.5;}
 	100% {opacity: 1;}
 };
 
@@ -25,7 +24,7 @@ li{
     font-size: 20px;
     padding-right: 70px;
     font-weight: 100px;
-    animation: navanim 3s forwards;
+    animation: navanim 1s forwards;
 }
 
 a{
