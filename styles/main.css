@@ -62,7 +62,7 @@ h2{
 
 
 
-/*Media Queries*/
+/*Media*/
 @media only screen and (max-width:900px){
     .container{
         grid-gap: 10px;
