@@ -24,7 +24,7 @@ header{
 .main-box{
     grid-area: main;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 53% 47%;
     grid-template-rows: auto;
     justify-content: center;
     align-items: center;
@@ -38,16 +38,17 @@ header{
 img{
     width: auto;
     height: 350px;
-    /*padding-left: 200px;*/
     border-radius: 350px;
-   position: relative;
-   left: 25%;
+    position: relative;
+    left: 25%;
     
 }
 main{
+    width: auto;
+    height: auto;
     grid-area: title;
     margin: 0;
-    padding: 50px;
+    padding: 0px;
 }
 h1{
     color: white;
@@ -65,3 +66,34 @@ h2{
     margin-top: -25px;
 }
 
+/*Media Queries*/
+@media only screen and (max-width:900px){
+   .main-box{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+    .photo-box{
+        width: 100%;
+    }
+    .photo-box img{
+        margin-top: 0;
+        max-width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    main{
+        width: auto;
+        margin: 30px 0 0 0;
+       
+    }
+    h1, h2{
+        margin: 0px 0 0 0;
+        position: relative;
+        text-align: center;
+        left: -20%;
+    }
+
+  
+
+}
