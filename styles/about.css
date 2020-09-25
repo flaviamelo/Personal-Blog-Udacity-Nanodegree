@@ -42,17 +42,20 @@ main .content-box{
     box-shadow: 5px 5px 8px #f5f3f39c, 10px 10px 8px  #ff7f6bc7, 15px 15px 8px #f5f3f39c;
     font-family: 'Architects Daughter', cursive;
 }
-
 .content-box h1{
     margin-bottom: 50px;
     font-size: 50px;
     font-weight: 400px;
 }
-
+.content-box h2{
+    font-size: 30px;
+}
+.content-box h3{
+    font-size: 28px;
+}
 .content-box p{
     font-size: 24px;
 }
-
 footer{
     grid-area: ft;
 }
@@ -65,6 +68,12 @@ footer{
 
     .content-box p{
         font-size: 18px;
+    }
+    .content-box h2{
+        font-size: 24px;
+    }
+    .content-box h3{
+        font-size: 20px;
     }
    
 }
