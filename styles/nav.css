@@ -55,23 +55,27 @@ label{
         cursor: pointer;
     }
     .menu{
-        position: fixed; top: 0; left: 0;
+        position: absolute; top: 0; left: 0;
         text-align: center;
         width: 100%;
         height: auto;
         display: none;
+        z-index: 1;
+        background-color: #FF7E6B;
+        opacity: 0.8;
        
     }
     .menu a{
         display: block;
-        border-bottom: 1px solid #FF7E6B;
+        color: black;
+        border-bottom: 1px solid black;
         margin: 0;
     }
     .menu a:hover{
         color: #e9462c;
     }
     #toggle:checked + .menu{
-        display: block;  
+        display: block; 
     }
-  
+
 }

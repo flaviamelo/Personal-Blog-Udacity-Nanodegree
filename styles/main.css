@@ -65,7 +65,7 @@ h2{
 /*Media*/
 @media only screen and (max-width:900px){
     .container{
-        grid-gap: 10px;
+        display: block;
     }
     .main-box{
         width: 100%;
@@ -96,8 +96,7 @@ h2{
         font-size: 18px;
         font-weight: 100px;
     }
-
-    /*#toggle:checked + .main-box{
-        justify-content: flex-end;
-    }*/
+    #toggle:checked + .menu{
+        
+    }
 }
