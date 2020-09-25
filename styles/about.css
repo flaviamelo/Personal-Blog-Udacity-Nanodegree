@@ -8,23 +8,14 @@ html, body{
     font-family: 'Raleway', sans-serif;
     color: white;
 }
-
-.container{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100px auto;
-    grid-gap: 100px;
-    grid-template-areas: 
-    "hd"
-    "main"
-    "ft";
-}
 header{
-    grid-area: hd;
+    margin-left: 0;
 }
 
 main{
     grid-area: main;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 main .content-box{
