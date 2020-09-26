@@ -1,10 +1,8 @@
-footer{
-    color: white;
-    font-size: 11px;
-    text-align: center;
-    grid-area: ft;
+footer {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  grid-area: ft;
 }
 
-@media only screen and (max-width: 900px){
-   
-}
+
