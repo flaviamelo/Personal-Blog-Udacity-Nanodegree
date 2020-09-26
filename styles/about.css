@@ -66,6 +66,21 @@ main .content-box {
   font-size: 24px;
 }
 
+.btn{
+  color: #ff7e6b;
+  background-color: black;
+  border-radius: 5px;
+  border: .5px solid #ff7e6b;
+}
+
+.btn:hover{
+  color: black;
+  background-color: #ff7e6b;
+  cursor: help;
+  border-radius: 5px;
+  
+}
+
 footer {
   grid-area: ft;
 }
