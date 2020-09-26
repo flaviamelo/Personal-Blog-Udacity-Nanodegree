@@ -39,7 +39,7 @@ header {
   text-align: center;
 }
 
-img {
+.photo-box .myPhoto {
   width: 350px;
   border-radius: 350px;
   padding-right: 15px;
@@ -107,7 +107,7 @@ h2 {
     font-size: 18px;
     font-weight: 100px;
   }
-  
+
   #toggle:checked + .menu {
   }
 }
